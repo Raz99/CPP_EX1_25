@@ -1,4 +1,4 @@
-# C++ Execise #1
+# C++ Exercise #1
 
 ## Overview
 
@@ -45,7 +45,7 @@ The project is organized into the following directories:
 
 ## Sources
 
-Please take a look at the [attached PDF](LINK HERE).
+Please take a look at the [attached PDF](https://github.com/Raz99/CPP_EX1_25/blob/386a8a14aad7617eb42c41e6c19adf27bc013bdf/sources.pdf).
 
 ## Author
 
