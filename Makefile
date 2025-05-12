@@ -3,9 +3,9 @@ CXX = clang++
 CXXFLAGS = -std=c++17 -Iinclude -Wall -O2
 TARGET = prog
 SRC = src/Graph.cpp src/Algorithms.cpp src/MyLinkedList.cpp src/MyQueue.cpp src/MyPriorityQueue.cpp src/MyUnionFind.cpp
-TEST_SRC = test/TestGraph.cpp test/TestAlgorithms.cpp test/TestLinkedList.cpp test/TestQueue.cpp test/TestPriorityQueue.cpp test/TestUnionFind.cpp
+TEST_SRC = tests/TestGraph.cpp tests/TestAlgorithms.cpp tests/TestLinkedList.cpp tests/TestQueue.cpp tests/TestPriorityQueue.cpp tests/TestUnionFind.cpp
 TEST_EXEC = test_runner
-DOCTEST_INCLUDE = -Itest
+DOCTEST_INCLUDE = -Itests
 
 all: $(TARGET)
 
